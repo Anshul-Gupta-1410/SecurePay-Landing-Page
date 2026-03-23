@@ -1,0 +1,684 @@
+<div class="main-content">
+      <!--header start-->
+      <header class="header">
+        <nav class="navbar navbar-inverse- navbar-white navbar-fixed-top navbar-expanded">
+          <div class="container ss">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <i class="fa fa-bars"></i>
+              <i class="fa fa-close"></i>
+              </button>
+              <div class="clicktocall-mob">
+                <a href="tel:+18554527135"><i class="fa-solid fa-headset"></i></a>
+              </div>
+              <a class="navbar-brand" href="index.html">
+                <img class="img-responsive" src="assets/img/securepay_color.png" width="172" height="59" alt="SecurePay">
+                <!--Felicia-->
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right navbar-link-dark">
+                <li>
+                  <a href="#Product">Features</a>
+                </li>
+                <li>
+                  <a href="#features">Solutions</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://boarding.securepay.com/">Boarding</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://support.securepay.com/">Support</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://my.securepay.com/login.aspx">Login</a>
+                </li>
+                <li class="clicktocall">
+                  <a href="tel:+18554527135">(855) 452-7135</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--header end-->
+      <!--hero section start-->
+      <section class="hero" style="background-image: url('assets/img/ban2.jpg');" data-overlay="5">
+        <div class="hero-content light-txt">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="hero-title m-bot-10">Most Secure Payment Gateway</h1>
+                <h3>Omnicommerce Payment Solutions</h3>
+                <a href="#features" class="btn btn-light-border">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--hero section end-->
+      <!--Integration section start-->
+      <div class="section-wrapper" id="integration">
+        <section class="section-space integration-wrapper gray-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="section-title text-center">
+                  <h2 class="title text-uppercase separator m-bot-20">Integrated Partners</h2>
+                  <div class="sub-title">
+                    Get fast, simple reporting integrations and cost savings securely in one platform.<br>Affordable solutions designed for your needs.
+                  </div>                                    
+                </div>
+              </div>
+            </div>
+            <div class="row five-cols">
+              <div class="col">
+                <div class="clogo"><img src="assets/img/qb-logo.png" alt="QuickBooks" width="64" height="64"></div>
+              </div>
+              <div class="col">
+                <div class="clogo"><img src="assets/img/paypal-logo.png" alt="Paypal" width="64" height="64"></div>
+              </div>
+              <div class="col">
+                <div class="clogo"><img src="assets/img/3dsecure-logo.png" alt="3D Secure" width="64" height="64"></div>
+              </div>
+              <div class="col">
+                <div class="clogo"><img src="assets/img/stripe-logo.png" alt="Stripe" width="64" height="64"></div>
+              </div>
+              <div class="col">
+                <div class="clogo"><img src="assets/img/stable-coin-logo.png" alt="Stable" width="64" height="64"></div>
+              </div>                                                        
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--Integration section end-->      
+      <!--about section start-->
+      <div class="section-wrapper" id="about">
+        <section class="section-space">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title">
+                  <h2 class="title text-uppercase separator m-bot-20">About SecurePay</h2>
+                  <div class="sub-title">
+                    A 360 Degree View of Your Business<br>                               
+                  </div>
+                </div>
+                <p>SecurePay a mobile payment gateway, a product of The OLB Group, Inc. (OLBG), is an industry leading merchant services and software development company, providing PCI compliant technology designed to secure processing, transmitting and storing of payment card related data. SecurePay’s real time gateway connects a merchant’s web store to our secure server for automatic processing, addressing all of the needs for eCommerce solutions. Virtual Terminals allow a merchant to process credit card transactions manually or via a swiped interface for mobile and tablet solutions. SecurePay is rich in advanced features, providing standardized and custom transaction reports, processing recurring transactions and maintaining account information via an easy-to- use online interface. Engineered using service-oriented architecture, SecurePay’s processing platform allows for easy integration and supports advanced technologies including tokenization and point-to- point encryption.</p>
+                <p>Payment professionals choose SecurePay, the leading browser-based and mobile payment processing solution. With an ever-changing environment of advanced payments technology, we’ve combined creativity and security with trustworthiness and developed a payment gateway product offering important solutions for any business, regardless of size and specific needs.</p>
+                <p>We believe as industry experts, the vital importance of implementing a payments gateway that better serves the needs of our partners and merchants is the expectation for a service provider. Combining a team of industry experts, we have implemented a gateway product built with reliability, security, innovation and a high level of customer service. SecurePay Gateway is a trustworthy selection.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--about section end-->
+      <div class="section-wrapper" id="Product">
+        <section class="section-space p-bot-0 gray-bg">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title">
+                  <h2 class="title text-uppercase separator m-bot-20">Features</h2>
+                  <div class="sub-title">
+                    SecurePay - Fast, Simple and Secure.<br>
+                    Cost-effective solutions tailored to fit your needs.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 myblock">
+                <div class="services-list text-left">
+                  <div class="services-icon text-primary">
+                    <i class="bi bi-article"></i>
+                  </div>
+                  <div class="services-desk">
+                    <h4 class="services-title">
+                      SecureGuard
+                    </h4>
+                    <p class="services-info">An enhanced security product developed for MOTO (keyed in transactions), Card Present (Swiped), and E-Commerce (Card-Not-Present) transactions using encrypted data. SecureGuard transparently defends malicious fraud and hacking attempts while protecting a merchant account from credit card testing and purchase fraud. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 myblock">
+                <div class="services-list text-left">
+                  <div class="services-icon text-danger">
+                    <i class="bi bi-money-bag"></i>
+                  </div>
+                  <div class="services-desk">
+                    <h4 class="services-title">
+                      API (Application Programming Interface)
+                    </h4>
+                    <p class="services-info">Documentation written for developers, providing condensed and easy to understand integration information. Experienced integration specialists are available to address and resolve issues during integration.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 myblock">
+                <div class="services-list text-left">
+                  <div class="services-icon text-warning">
+                    <i class="bi bi-tablet"></i>
+                  </div>
+                  <div class="services-desk">
+                    <h4 class="services-title">
+                      Recurring Billing
+                    </h4>
+                    <p class="services-info">Setup automated billings for an individual customer, via a credit card or ACH transaction, including a definitive amount, on a specific day or specialized time period. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 myblock">
+                <div class="services-list text-left">
+                  <div class="services-icon">
+                    <i class="bi bi-server"></i>
+                  </div>
+                  <div class="services-desk">
+                    <h4 class="services-title">
+                      Variable Batch Time
+                    </h4>
+                    <p class="services-info">Providing our merchants the ability to set their batch settlement time. Simply set batch times during provided established cut off times and enjoy Next Day Funding settlements. YOU control your business.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 myblock">
+                <div class="services-list text-left">
+                  <div class="services-icon text-success">
+                    <i class="bi bi-globe3"></i>
+                  </div>
+                  <div class="services-desk">
+                    <h4 class="services-title">
+                      PCI (Payment Card Industry)
+                    </h4>
+                    <p class="services-info">The PCI data security standard was implemented by Visa and Master Card, providing strong standards merchants and processors must abide by, to avoid high liability costs for any breach of cardholder data. Calpian’s processing environments are completely PCI certified.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 myblock">
+                <div class="services-list text-left">
+                  <div class="services-icon text-info">
+                    <i class="bi bi-search"></i>
+                  </div>
+                  <div class="services-desk">
+                    <h4 class="services-title">
+                      Support
+                    </h4>
+                    <p class="services-info">Our trained support specialists are prepared to assist you 24 hours a day, 7 days a week, 365 days per year with a first call resolution in mind. We strive to provide the best customer service in the market today. Please feel free to call us with any questions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- parallax section start -->
+      <section class="section-space parallax" style="background-image: url('assets/img/ban2.jpg');" data-overlay="4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center light-txt">
+              <div class="para-title">
+                Don't stop dreaming,<br>Just imagine and we'll build it for you.
+              </div>
+              <a target="_blank" href="https://merchant.olb.com/" class="btn btn-light-border">Get Ready</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- parallax section end -->
+      <!--feature section start-->
+      <div class="section-wrapper" id="features">
+        <section class="section-space p-bot-0 feature-wrapper gray-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="section-title text-center">
+                  <h2 class="title text-uppercase separator m-bot-20">SOLUTIONS</h2>
+                  <div class="sub-title">360 Degree View With SecurePay</div>
+                </div>
+              </div>
+            </div>
+            <div class="row feature-list-Mn">
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/store.jpg" alt="RETAIL STORES" width="425" height="282">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    RETAIL STORES
+                  </h3>
+                  <div class="feature-info">
+                    Check out which products are hot and which are not! Pull product reports and even reorder products. Manage the entire inventory.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/cafe.jpg" alt="CAFES &amp; DELIS" width="425" height="282">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    CAFES &amp; DELIS
+                  </h3>
+                  <div class="feature-info">
+                    Speedy transactions with smooth point of sale for your business sell your products and services efficiently without disruptions!
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/car.jpg" alt="CAR &amp; LIMOUSINE" width="425" height="282">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    CAR &amp; LIMOUSINE
+                  </h3>
+                  <div class="feature-info">
+                    Taking customers from point A- to-B is my job and every time I finished my job I had to wait for the central office. Now I do it on the spot!
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/service.jpg" alt="MESSENGER SERVICES" width="425" height="282">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    MESSENGER SERVICES
+                  </h3>
+                  <div class="feature-info">
+                    As a messenger I have too many tasks to complete on an hourly basses having my personal POS with me makes my job faster and productive!
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/servicing.jpg" alt="SERVICING" width="425" height="282">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    SERVICING
+                  </h3>
+                  <div class="feature-info">
+                    Schedule a job. assign employees and bill customers.servicing customers is easy as 1,2, 3, Get your customers in and out the shop efficiently and quickly!.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/spa.jpg" alt="SALONS &amp; SPAS" width="425" height="282">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    SALONS &amp; SPAS
+                  </h3>
+                  <div class="feature-info">
+                    Too many customers to keep track of? Now you can schedule appointments on calendar give commissions to your employees and ring up products at the POS screen!
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/street.jpg" alt="STREET VENDORS" width="425" height="282">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    STREET VENDORS
+                  </h3>
+                  <div class="feature-info">
+                    Having my POS with me every weekend makes my business more productive and efficient instead of waiting beginning of the week to run all the transactions!
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/resturent.jpg" alt="RESTAURANTS" width="425" height="282">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    RESTAURANTS
+                  </h3>
+                  <div class="feature-info">
+                    My job as a waiter is hectic already, keeping track of all the tables and customers is another headed that I don’t need …using my personal POS make my life easier!
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/easy.jpg" alt="Easy Shop" width="960" height="618">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    Easy Shop
+                  </h3>
+                  <div class="feature-info">
+                    Easy Shop is SecurePay's free shopping cart solution developed for merchants seeking an affordable method for linking their merchant web site to the SecurePay virtual payment gateway.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/mobile.jpg" alt="Mobile Payments" width="384" height="256">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    Mobile Payments
+                  </h3>
+                  <div class="feature-info">
+                    Merchants need an option to process secure transactions anywhere allowing businesses to never miss a sale. Accept EMV and APPLE Pay mobile transactions with just one swipe, dip or tap.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/third.jpg" alt="Third Party Shopping Cart" width="960" height="640">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    Third Party Shopping Cart
+                  </h3>
+                  <div class="feature-info">
+                    SecurePay currently works with a wide range of shopping cart providers, welcoming integration of new shopping carts high in demand. We welcome the opportunity to expand our relationships. 
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex">
+                <div class="feature-list text-center">
+                  <!-- for img start -->
+                  <div class="feature-list-img">
+                    <img src="assets/img/customer.jpg" alt="Customer Vault" width="384" height="256">
+                  </div>
+                  <!-- for img end -->
+                  <h3 class="feature-title">
+                    Customer Vault
+                  </h3>
+                  <div class="feature-info">
+                    Store customer's information securely through SSL (Secure Sockets Layer) storing payment information within our PCI certified data security, permitting merchants to initiate transactions via tokenization without accessing cardholder information directly.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--feature section end-->
+      <!-- promo section start -->
+      <section class="section-space parallax" style="background-image: url('assets/img/ban2.jpg');" data-overlay="5">
+        <div class="container sm-center">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center light-txt">
+              <div class="para-title">Are you excited to experiment our services? Hurry up !</div>
+              <a href="#contact" class="btn btn-light-border">Contact Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- promo section end -->
+      <!-- fun factor section start -->
+      <div class="section-wrapper" id="fun">
+        <section class="section-space">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="section-title text-center">
+                  <h2 class="title text-uppercase separator m-bot-20">FACTS</h2>
+                  <div class="sub-title">Our current basic facts, about our services.</div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="fun-box fun-separator">
+                  <i class="fa fa-dollar-sign"></i>
+                  <h2>1.3B</h2>
+                  <div class="title">Gross Transaction</div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="fun-box fun-separator">
+                  <i class="fa fa-arrow-up"></i>
+                  <h2>28,500K</h2>
+                  <div class="title">Transaction</div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="fun-box fun-separator">
+                  <i class="fa fa-store"></i>
+                  <h2>10,500</h2>
+                  <div class="title">Merchants Nationwide</div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="fun-box fun-separator">
+                  <i class="fa fa-fingerprint"></i>
+                  <h2>3,500+</h2>
+                  <div class="title">Merchants on SecurePay</div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="fun-box fun-separator">
+                  <i class="fa fa-industry"></i>
+                  <h2>130+</h2>
+                  <div class="title">Industries</div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="fun-box fun-separator">
+                  <i class="fa fa-map-marker"></i>
+                  <h2>50</h2>
+                  <div class="title">Selling in States</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- fun factor section end -->
+      <!--contact section start-->
+      <div class="section-wrapper contact-wrapper" id="contact">
+        <section class="section-space parallax" data-overlay="6">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="section-title text-left">
+                  <h2 class="title text-uppercase separator m-bot-20">Contact Us</h2>
+                  <div class="sub-title">Please complete the following form, one of our support specialists will contact you. Thank you for your interest.</div>
+                </div>
+                <div class="phone-txt">
+                  <p>
+                    <a href="tel:+12122780900">(212) 278-0900</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-md-offset-1">
+                <div id="mc_embed_shell">
+                  <div class="signup" id="mc_embed_signup">
+                    <form action="https://olb.us5.list-manage.com/subscribe/post?u=a64c2f88bacb3aac8e8d7be6e&amp;id=8a27c79c67&amp;f_id=0054cde3f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+                      <div class="row" id="mc_embed_signup_scroll">
+                        <div class="col-sm-6">
+                          <div class="mc-field-group form-group"><label class="control-label col-form-label text-left" for="mce-FNAME">First Name <span class="asterisk">*</span></label><input type="text" name="FNAME" class="required text form-control" id="mce-FNAME" required="" value="" aria-required="true"></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="mc-field-group form-group"><label class="control-label col-form-label text-left" for="mce-LNAME">Last Name <span class="asterisk">*</span></label><input type="text" name="LNAME" class="required text form-control" id="mce-LNAME" value="" required="" aria-required="true"></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="mc-field-group form-group"><label class="control-label col-form-label text-left" for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL" required="" value="" aria-required="true"></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="mc-field-group form-group"><label class="control-label col-form-label text-left" for="mce-PHONE">Phone Number <span class="asterisk">*</span></label><input type="text" name="PHONE" class="REQ_CSS form-control" id="mce-PHONE" required="" value="" aria-required="true"></div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="mc-field-group form-group">
+                            <label class="control-label col-form-label text-left" for="mce-REQSTMT">Requirement Statement <span class="asterisk">*</span></label>
+                            <select name="REQSTMT" class="required form-control" id="mce-REQSTMT" aria-required="true">
+                              <option value=""></option>
+                              <option value="I need better technology.">I need better technology.</option>
+                              <option value="I want to save money.">I want to save money.</option>
+                              <option value="I am looking for better customer service.">I am looking for better customer service.</option>
+                              <option value="I am not sure yet just looking around.">I am not sure yet just looking around.</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="mc-field-group form-group"><label class="control-label col-form-label text-left" for="mce-MMERGE6">Business Name <span class="asterisk">*</span></label><input type="text" name="MMERGE6" class="required text form-control" id="mce-MMERGE6" value="" required="" aria-required="true"></div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="mc-field-group form-group">
+                            <label class="control-label col-form-label text-left" for="mce-MMERGE7">Business Type <span class="asterisk">*</span></label>
+                            <select name="MMERGE7" class="required form-control" id="mce-MMERGE7" aria-required="true">
+                              <option value=""></option>
+                              <option value="Corporation">Corporation</option>
+                              <option value="Government">Government</option>
+                              <option value="LLC">LLC</option>
+                              <option value="Sole Proprietor">Sole Proprietor</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="mc-field-group form-group">
+                            <label class="control-label col-form-label text-left" for="mce-MMERGE8">Industry Type <span class="asterisk">*</span></label>
+                            <select name="MMERGE8" class="required form-control" id="mce-MMERGE8" aria-required="true">
+                              <option value=""></option>
+                              <option value="Food and Beverage">Food and Beverage</option>
+                              <option value="Retail">Retail</option>
+                              <option value="Legal">Legal</option>
+                              <option value="Service-Based">Service-Based</option>
+                              <option value="Professional Services">Professional Services</option>
+                              <option value="Hotels and Lodging">Hotels and Lodging</option>
+                              <option value="Salon and Spa">Salon and Spa</option>
+                              <option value="Healthcare">Healthcare</option>
+                              <option value="Health and Fitness">Health and Fitness</option>
+                              <option value="E-commerce">E-commerce</option>
+                              <option value="Charity/Non Profit">Charity/Non Profit</option>
+                              <option value="Other">Other</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div class="mc-field-group form-group">
+                            <label class="control-label col-form-label text-left" for="mce-MMERGE9">How Did You Hear About Us <span class="asterisk">*</span></label>
+                            <select name="MMERGE9" class="required form-control" id="mce-MMERGE9" aria-required="true">
+                              <option value=""></option>
+                              <option value="Google">Google</option>
+                              <option value="Yahoo/Bing">Yahoo/Bing</option>
+                              <option value="Event / Networking">Event / Networking</option>
+                              <option value="Friend/Family">Friend/Family</option>
+                              <option value="Merchant Maverick">Merchant Maverick</option>
+                              <option value="Press Article">Press Article</option>
+                              <option value="Referral by Person">Referral by Person</option>
+                              <option value="Social Media">Social Media</option>
+                              <option value="Other">Other</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display: none;"></div>
+                            <div class="response" id="mce-success-response" style="display: none;"></div>
+                          </div>
+                          <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_a64c2f88bacb3aac8e8d7be6e_8a27c79c67" tabindex="-1" value=""></div>
+                          <div class="clear submit-btn-wrap"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary-solid" value="Submit"></div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--contact section end-->
+      <!-- footer start-->
+      <footer class="footer">
+        <div class="footer-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-md-4 col-sm-12">
+                <div class="row">
+                  <div class="col-auto">
+                    <p><img src="assets/img/securepay-sm-logo.png" alt="SecurePay" width="110" height="110" class="footer-logo"><b>SecurePay</b> an OmniCommerce payment gateway, a product of The OLB Group, Inc. we’ve combined creativity and security with trustworthiness and developed a payment gateway product offering important solutions for any business, regardless of size and specific needs.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-8 col-sm-12">
+                <div class="row">
+                  <div class="col-sm-7 col-xs-12">
+                    <div class="row">
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="footer-title">
+                          <h5>QUICK LINKS</h5>
+                        </div>
+                        <ul class="list-unstyled short-links">
+                          <li><a href="privacy.html">Privacy</a></li>
+                          <li><a href="disclaimer.html">Disclaimer</a></li>
+                          <li><a target="_blank" href="https://support.securepay.com/">Support</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="footer-title">
+                          <h5>LOGIN</h5>
+                        </div>
+                        <ul class="list-unstyled short-links">
+                          <li><a href="https://boarding.securepay.com/" target="_blank">Boarding</a></li>
+                          <li><a href="https://my.securepay.com/login.aspx" target="_blank">Login</a></li>                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-5 col-xs-12">
+                    <div class="footer-title">
+                      <h5>CONTACT US</h5>
+                    </div>
+                    <ul class="list-unstyled short-links">
+                      <li><a class="footer-tel" href="tel:+12122780900">(212) 278-0900</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                © 2026 All rights reserved. SecurePay a product of The OLB Group, Inc. (Nasdaq: OLB)
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end-->
+    </div>
+    <!--scripts-->
+    
+    
+    
+    
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+    
+    <!-- End of LiveChat code -->
