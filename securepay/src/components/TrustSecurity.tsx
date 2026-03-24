@@ -5,12 +5,9 @@ import { DollarSign, ArrowUpRight, Building2, Fingerprint, MapPin, Layers } from
 
 export default function TrustSecurity() {
   const FACTS = [
-    { title: "Gross Transaction", val: "1.3B", icon: DollarSign },
-    { title: "Transactions", val: "28.5M", icon: ArrowUpRight },
-    { title: "Merchants Nationwide", val: "10,500", icon: Building2 },
-    { title: "Merchants on platform", val: "3,500+", icon: Fingerprint },
-    { title: "Industries Support", val: "130+", icon: Layers },
-    { title: "Selling in States", val: "50", icon: MapPin },
+    { title: "Active merchants", val: "2500+", icon: Building2 },
+    { title: "Transactions", val: "1,200 Cr+", icon: ArrowUpRight },
+    { title: "App Rating", val: "4.7", icon: Fingerprint },
   ];
 
   return (
@@ -19,16 +16,16 @@ export default function TrustSecurity() {
         <div className="flex flex-col lg:flex-row items-center gap-16">
 
           {/* Left Content */}
-          <div className="flex-1 w-full">
+          <div className="flex-1 w-full relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-center md:text-left">
-              The Facts About <br />
-              <span className="text-secondary glow-secondary">Our Scale</span>
+              Numbers Tell <br />
+              <span className="text-secondary glow-secondary">Our Story</span>
             </h2>
             <p className="text-gray-400 text-lg mb-12 max-w-xl text-center md:text-left">
-              SecurePay operates as a full-stack payment infrastructure protecting customer data and merchant funds with military-grade encryption workflows. Look at our current basics facts about our services.
+              Powered by reliable fintech infrastructure. Trusted by thousands of merchants across India to scale faster and smarter.
             </p>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {FACTS.map((fact, i) => (
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -36,13 +33,13 @@ export default function TrustSecurity() {
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.1 }}
                   key={i}
-                  className="bg-obsidian/80 border border-white/5 rounded-xl p-4 text-center hover:border-secondary/30 transition-colors"
+                  className="bg-obsidian/80 border border-white/5 rounded-2xl p-6 text-center hover:border-secondary/30 transition-all hover:scale-105"
                 >
-                  <div className="w-10 h-10 mx-auto rounded-full bg-secondary/10 flex items-center justify-center text-secondary mb-3">
+                  <div className="w-10 h-10 mx-auto rounded-[10px] bg-secondary/10 flex items-center justify-center text-secondary mb-4">
                     <fact.icon size={20} />
                   </div>
-                  <div className="text-2xl font-bold font-heading text-white">{fact.val}</div>
-                  <div className="text-xs text-gray-500 mt-1 uppercase tracking-wide">{fact.title}</div>
+                  <div className="text-3xl font-bold font-heading text-white">{fact.val}</div>
+                  <div className="text-sm text-gray-500 mt-2 tracking-wide font-medium">{fact.title}</div>
                 </motion.div>
               ))}
             </div>
@@ -57,8 +54,8 @@ export default function TrustSecurity() {
               className="relative w-80 h-80 rounded-full border border-dashed border-primary/30 flex items-center justify-center"
             >
               <motion.div
-                animate={{ rotate: -720 }}
-                transition={{ duration: 150, repeat: Infinity, ease: "linear" }}
+                animate={{ rotate: -360 }}
+                transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
                 className="w-64 h-64 rounded-full border border-secondary/30 flex items-center justify-center relative"
               >
                 {/* Node 1 */}

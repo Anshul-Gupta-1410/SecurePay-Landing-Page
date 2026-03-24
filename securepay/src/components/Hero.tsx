@@ -2,9 +2,11 @@
 
 import { motion } from "framer-motion";
 
+import Hero3DOrb from "./Hero3DOrb";
+
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-32 md:pt-40 overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[120px]" />
@@ -20,8 +22,8 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-5xl md:text-7xl font-bold font-heading leading-tight mb-6"
           >
-            Most <span className="text-primary glow-primary">Secure</span> <br />
-            Payment Gateway
+            Payments Solution <br />
+            For <span className="text-primary glow-primary">Everyone</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -29,7 +31,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
             className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto lg:mx-0"
           >
-            Omnicommerce Payment Solutions. A 360 Degree View of Your Business.
+            From seamless payment experiences and smart transaction routing to managing multiple banks, QR codes, Soundbox UPI, Cards and end-to-end payment infrastructure - SecurePay powers everything that helps you scale faster, safer, and smarter.
           </motion.p>
 
           <motion.div
@@ -38,35 +40,26 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
           >
-            <button className="bg-primary hover:bg-white text-obsidian font-semibold py-4 px-8 rounded-full transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(0,209,255,0.4)]">
+            <button className="bg-primary hover:bg-white text-obsidian font-semibold py-4 px-8 rounded-full transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(0,209,255,0.15)]">
               Learn More
             </button>
             <button className="glass-panel text-white hover:bg-white/10 font-semibold py-4 px-8 rounded-full transition-all duration-300 hover:scale-105 active:scale-95">
-              Call (855) 452-7135
+              Call (212) 278-0900
             </button>
           </motion.div>
         </div>
 
         {/* Right 3D Visual */}
         <div className="flex-1 relative w-full aspect-square max-w-[600px] flex items-center justify-center">
-          {/* Central Orb */}
-          <motion.div
-            animate={{
-              y: [-10, 10, -10],
-              rotate: [0, 5, -5, 0],
-            }}
-            transition={{
-              duration: 6,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-            className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-primary to-secondary glow-secondary flex items-center justify-center relative z-20"
-          >
-            <div className="absolute inset-2 bg-obsidian rounded-full opacity-80 backdrop-blur-3xl" />
-            <div className="relative text-white font-heading text-xl font-bold tracking-wider text-center">
-              SECUREPAY<br /><span className="text-xs font-normal text-gray-400">by OLB Group</span>
+          {/* Central 3D Canvas Orb */}
+          <div className="relative w-64 h-64 md:w-80 md:h-80 flex items-center justify-center z-20">
+            <Hero3DOrb />
+            <div className="absolute inset-0 flex items-center justify-center z-30 pointer-events-none">
+              <div className="text-white font-heading text-xl font-bold tracking-wider text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+                SECUREPAY<br /><span className="text-xs font-normal text-gray-400">Powered by Giants</span>
+              </div>
             </div>
-          </motion.div>
+          </div>
 
           {/* Floating Cards */}
           <motion.div
@@ -79,8 +72,8 @@ export default function Hero() {
                 ✓
               </div>
               <div>
-                <div className="text-xs text-gray-400">System Status</div>
-                <div className="font-bold text-white tracking-widest text-sm">SECURED</div>
+                <div className="text-xs text-gray-400">UPI Switch</div>
+                <div className="font-bold text-white tracking-widest text-sm">ACTIVE</div>
               </div>
             </div>
           </motion.div>
@@ -91,7 +84,7 @@ export default function Hero() {
             className="absolute bottom-1/4 -right-4 md:-right-12 glass-panel p-4 rounded-2xl w-52 z-30 shadow-2xl"
           >
             <div className="flex justify-between items-center mb-2">
-              <span className="text-xs text-gray-400">SecureGuard Active</span>
+              <span className="text-xs text-gray-400">BBPS Platform</span>
               <span className="w-2 h-2 rounded-full bg-secondary animate-pulse" />
             </div>
             <div className="w-full bg-white/5 h-2 rounded-full overflow-hidden">

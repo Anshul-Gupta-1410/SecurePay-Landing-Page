@@ -2,49 +2,39 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Store, Coffee, Car, Wrench, Scissors, Utensils } from "lucide-react";
+import { Globe, ScanLine, MonitorSmartphone, RefreshCw, Send, FileText } from "lucide-react";
 import Image from "next/image";
 
 const SOLUTIONS = [
   { 
-    name: "Retail Stores", 
-    icon: Store,
-    desc: "Check out which products are hot and which are not! Pull product reports and even reorder products. Manage the entire inventory."
+    name: "Online Payments", 
+    icon: Globe,
+    desc: "Accept payments online. Fast. Secure. Reliable. Enable seamless online payments through cards, UPI, net banking and wallets. Built for high success rates."
   },
   { 
-    name: "Cafes & Delis", 
-    icon: Coffee,
-    desc: "Speedy transactions with smooth point of sale for your business sell your products and services efficiently without disruptions!"
+    name: "QR Code Payments", 
+    icon: ScanLine,
+    desc: "Simple scans. Instant payments. Accept payments through static and dynamic QR codes across UPI apps. Ideal for merchants of every size."
   },
   { 
-    name: "Car & Limousine", 
-    icon: Car,
-    desc: "Taking customers from point A- to-B is my job and every time I finished my job I had to wait for the central office. Now I do it on the spot!"
+    name: "POS Solutions", 
+    icon: MonitorSmartphone,
+    desc: "In-store payments, simplified. Accept card, UPI, wallet and contactless payments at physical locations. Keep your checkout lines moving."
   },
   { 
-    name: "Messenger Services", 
-    img: "/Messenger Services.png",
-    desc: "As a messenger I have too many tasks to complete on an hourly basses having my personal POS with me makes my job faster and productive!"
+    name: "Auto Collect", 
+    icon: RefreshCw,
+    desc: "Collect payments automatically, without follow-ups. Automate collections using virtual accounts and smart payment identifiers to improve cash flow."
   },
   { 
-    name: "Servicing", 
-    icon: Wrench,
-    desc: "Schedule a job. assign employees and bill customers.servicing customers is easy as 1,2, 3, Get your customers in and out the shop efficiently and quickly!."
+    name: "Payout System", 
+    icon: Send,
+    desc: "Send money instantly, at scale. Disburse payments to vendors, partners, or customers in real time. Fast, secure and compliant fund transfers."
   },
   { 
-    name: "Salons & Spas", 
-    icon: Scissors,
-    desc: "Too many customers to keep track of? Now you can schedule appointments on calendar give commissions to your employees and ring up products at the POS screen!"
-  },
-  { 
-    name: "Street Vendors", 
-    img: "/Street Vendors.png",
-    desc: "Having my POS with me every weekend makes my business more productive and efficient instead of waiting beginning of the week to run all the transactions!"
-  },
-  { 
-    name: "Restaurants", 
-    icon: Utensils,
-    desc: "My job as a waiter is hectic already, keeping track of all the tables and customers is another headed that I don’t need …using my personal POS make my life easier!"
+    name: "BBPS Platform", 
+    icon: FileText,
+    desc: "One platform for all bill payments. Enable utility, telecom, and bill payments through a BBPS-compliant system. Seamless, trusted way to pay bills."
   },
 ];
 
@@ -57,11 +47,11 @@ export default function DashboardPreview() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-primary/5 rounded-[100%] blur-[120px] pointer-events-none" />
 
       <div className="container mx-auto px-6 relative z-10 text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 uppercase tracking-wider">
-          <span className="text-primary glow-primary">Markets & Solutions</span>
+        <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 tracking-wider">
+          <span className="text-primary glow-primary">Payments & Collections</span>
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto text-lg mb-12">
-          360 Degree View With SecurePay. Whether you run a cafe, scale an enterprise, or dispatch a fleet, we have tailored POS and gateway solutions.
+          Explore a powerful, modular payment ecosystem built to simplify collections, strengthen security, and help businesses scale effortlessly - online and offline.
         </p>
 
         {/* Floating Solutions Mockup */}
@@ -74,7 +64,7 @@ export default function DashboardPreview() {
             className="w-full relative transform-style-3d glass-panel rounded-3xl border border-white/10 p-8 shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
           >
              {/* Grid of Industries */}
-             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 items-start">
+             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
                 {SOLUTIONS.map((sol, index) => {
                   const isHovered = hoveredIndex === index;
                   return (
@@ -83,18 +73,12 @@ export default function DashboardPreview() {
                       layout
                       onHoverStart={() => setHoveredIndex(index)}
                       onHoverEnd={() => setHoveredIndex(null)}
-                      className="bg-obsidian/80 border border-white/5 rounded-xl p-5 flex flex-col items-center gap-3 cursor-pointer min-h-[140px] transition-colors hover:border-secondary/50"
+                      className="bg-obsidian/80 border border-white/5 rounded-xl p-5 flex flex-col items-center gap-3 cursor-pointer min-h-[160px] transition-colors hover:border-secondary/50 group"
                     >
-                      <motion.div layout className="w-12 h-12 bg-secondary/20 rounded-full flex items-center justify-center text-secondary relative overflow-hidden">
-                        {sol.icon ? (
-                          <sol.icon size={24} />
-                        ) : sol.img ? (
-                          <div className="p-2 relative w-full h-full flex justify-center items-center opacity-80 filter invert grayscale brightness-200">
-                            <Image src={sol.img} alt={sol.name} width={28} height={28} className="object-contain" />
-                          </div>
-                        ) : null}
+                      <motion.div layout className="w-12 h-12 bg-secondary/20 rounded-full flex items-center justify-center text-secondary relative overflow-hidden group-hover:scale-110 transition-transform">
+                        {sol.icon && <sol.icon size={24} />}
                       </motion.div>
-                      <motion.span layout className="text-sm font-bold text-gray-200">
+                      <motion.span layout className="text-sm font-bold text-gray-200 text-center">
                         {sol.name}
                       </motion.span>
                       
@@ -119,17 +103,17 @@ export default function DashboardPreview() {
              </div>
 
              <div className="mt-12 pt-8 border-t border-white/10 grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
-                <div className="bg-white/5 p-6 rounded-2xl border border-white/5">
-                  <h4 className="text-primary font-bold mb-2">Easy Shop</h4>
-                  <p className="text-xs text-gray-400">Free shopping cart solution for linking merchant websites to our virtual payment gateway securely.</p>
+                <div className="bg-white/5 p-6 rounded-2xl border border-white/5 hover:bg-white/10 transition-colors">
+                  <h4 className="text-primary font-bold mb-2 tracking-wide uppercase text-sm">Merchant Platform</h4>
+                  <p className="text-xs text-gray-400 leading-relaxed">One dashboard. Complete control. Manage merchants, transactions, settlements, and reports from a single unified platform.</p>
                 </div>
-                <div className="bg-white/5 p-6 rounded-2xl border border-white/5">
-                  <h4 className="text-secondary font-bold mb-2">Third Party Shopping Cart</h4>
-                  <p className="text-xs text-gray-400">Seamlessly works with a wide range of providers. Welcome integration of new shopping carts.</p>
+                <div className="bg-white/5 p-6 rounded-2xl border border-white/5 hover:bg-white/10 transition-colors">
+                  <h4 className="text-secondary font-bold mb-2 tracking-wide uppercase text-sm">Mobile Applications</h4>
+                  <p className="text-xs text-gray-400 leading-relaxed">Payments and insights, on the go. Access real-time transaction data, settlements, and account insights anywhere.</p>
                 </div>
-                <div className="bg-white/5 p-6 rounded-2xl border border-white/5">
-                  <h4 className="text-white font-bold mb-2">Customer Vault</h4>
-                  <p className="text-xs text-gray-400">Store customer information securely via tokenization without accessing cardholder data directly.</p>
+                <div className="bg-white/5 p-6 rounded-2xl border border-white/5 hover:bg-white/10 transition-colors">
+                  <h4 className="text-white font-bold mb-2 tracking-wide uppercase text-sm">Devices & Enablement</h4>
+                  <p className="text-xs text-gray-400 leading-relaxed">Hear every successful payment. Turn your smartphone into a payment acceptance tool. Collect, track, and manage digitally.</p>
                 </div>
              </div>
           </motion.div>

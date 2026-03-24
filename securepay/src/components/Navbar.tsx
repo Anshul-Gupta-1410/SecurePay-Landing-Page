@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="absolute top-0 left-0 w-full p-6 z-50 flex justify-between items-center bg-transparent">
       <div className="flex items-center">
         <a href="/">
-          <Image src="/logo.png" alt="SecurePay" width={172} height={59} className="object-contain" />
+          <Image src="/logo.png" alt="SecurePay" width={172} height={59} className="object-contain w-auto h-auto" priority />
         </a>
       </div>
       <div className="hidden md:flex gap-8 items-center text-sm font-medium text-gray-300">
@@ -17,8 +17,8 @@ export default function Navbar() {
         <a href="https://my.securepay.com/login.aspx" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">Login</a>
       </div>
       <div className="hidden md:flex items-center gap-4">
-        <a href="tel:+18554527135" className="glass-panel text-white py-2 px-6 rounded-full font-bold hover:bg-white/10 transition-colors">
-          (855) 452-7135
+        <a href="tel:+12122780900" className="glass-panel text-white py-2 px-6 rounded-full font-bold hover:bg-white/10 transition-colors">
+          (212) 278-0900
         </a>
       </div>
     </nav>

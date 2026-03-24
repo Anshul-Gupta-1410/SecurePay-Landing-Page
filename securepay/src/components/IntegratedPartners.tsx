@@ -30,7 +30,7 @@ export default function IntegratedPartners() {
               className="flex flex-col items-center gap-3 text-gray-500 hover:text-primary transition-colors cursor-pointer group"
             >
               <div className="group-hover:drop-shadow-[0_0_10px_rgba(0,209,255,0.8)] transition-all grayscale group-hover:grayscale-0">
-                <Image src={partner.img} alt={partner.name} width={50} height={50} className="object-contain" />
+                <Image src={partner.img} alt={partner.name} width={50} height={50} className="object-contain w-auto h-auto" />
               </div>
               <span className="text-xs font-bold tracking-wider">{partner.name}</span>
             </motion.div>
